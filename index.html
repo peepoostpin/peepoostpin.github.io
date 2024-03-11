@@ -1,1 +1,39 @@
-https://web.archive.org/web/2if_/https://testflightapp.com/dashboard/ipa/7aa665ec2aa49043cc641a261d97f97b-MTU2MDQyNA/6280ca3ee10631fd6817100ffd1ee849-MTMzMzc3/
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>.m3u8 Player</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        #videoPlayer {
+            width: 100%;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>.m3u8 Player</h1>
+    <video id="videoPlayer" controls>
+        <!-- Fallback content for browsers that don't support HTML5 video -->
+        <source src="" type="application/x-mpegURL">
+        Your browser does not support HTML5 video.
+    </video>
+
+    <script>
+        const videoPlayer = document.getElementById('videoPlayer');
+
+        function playVideo(url) {
+            videoPlayer.src = url;
+            videoPlayer.play();
+        }
+
+        // Example usage: playVideo('https://example.com/example.m3u8');
+        // Replace the URL with your .m3u8 file URL
+    </script>
+</body>
+</html>
