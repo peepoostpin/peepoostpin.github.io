@@ -1,3 +1,2 @@
 # peepoostpin.github.io
-i was never taught what laws there are
-he was never taqught thel was
+go to https://github.com/peepoostpin/peepoostpin.github.io/blob/main/RUNTHISMACK.exe
